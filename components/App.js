@@ -101,7 +101,7 @@ export default class App extends Component{
               data={newArray}
               renderItem={({ item }) =>
                 <View style={gridViewContainer}>
-                  <Text style={temperature}>{item.temperature}</Text>
+                  <Text style={temperature}>{item.temperature} hjhhjjhj</Text>
                   <View style={alignTemperatureAndIcon}>
                     <Text style={day}>{item.date}</Text>
                     <CachedImage
